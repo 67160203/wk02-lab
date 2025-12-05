@@ -7,58 +7,97 @@
   </head>
   <body>
     <header>
-      <h1>My Portfolio</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">หน้าแรก</a></li>
-          <li><a href="#about">เกี่ยวกับเรา</a></li>
-          <li><a href="#contact">ติดต่อ</a></li>
-        </ul>
-      </nav>
+      <section id="home">
+        <h1>My Portfolio</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">หน้าแรก</a></li>
+            <li><a href="#about">เกี่ยวกับเรา</a></li>
+            <li><a href="#port">ผลงาน</a></li>
+            <li><a href="#contact">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
     <main>
-      <section id="articles">
+      <section id="about">
         <article>
           <h2>About Me</h2>
           <figure>
-            <img src="myself.jpg" alt="Myself" width="200" height="200" />
+            <img src="myself.png" alt="Myself" width="250" />
             <figcaption>
-              ชื่อ-สกุล นางสาว ศุภาพิชญ์ ทิพวรรณ์ อายุ 20 ปี
+              ชื่อ-สกุล นางสาว ศุภาพิชญ์ ทิพวรรณ์<br />
+              ชื่อเล่น ผักหวาน อายุ 20 ปี<br />
+              กำลังศึกษาอยู่ชั้นปีที่ 2 คณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา
             </figcaption>
           </figure>
-        </article>
 
+          <h2>Skill</h2>
+          <table border="2">
+            <thead>
+              <tr>
+                <th>ความสามารถพิเศษ</th>
+                <th>รายละเอียด</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>เขียนโปรแกรมในภาษาต่างๆ</td>
+                <td>Python, C++, JavaScript, HTML</td>
+              </tr>
+              <tr>
+                <td>พูดภาษาต่างประเทศ</td>
+                <td>ภาษาอังกฤษ</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <section id="port">
         <article>
           <h2>Portfolio</h2>
           <figure>
-            <p>
-              - โปรเจคสร้างเกมใน scatch<br />
-              - โปรคเจคศึกษาอัลกลอริทึ่มและโครงสร้าง
-            </p>
-            <figcaption></figcaption>
+            <p>- โปรเจคสร้างเกม minesweeper ใน scratch<br /></p>
+            <img src="scratch.png" alt="scratch" width="800" />
+            <figcaption>
+              โปรเจคที่ทำขึ้นเพื่อนำความรู้ในวิชา Lateral Thinking Skill
+              Development มาพัฒนาเกมของตนเอง
+            </figcaption>
           </figure>
-        </article>
 
-        <article>
-          <h2>Contact</h2>
-          <p>
-            Tel:0863744818<br />
-            - โปรคเจคศึกษาอัลกลอริทึ่มและโครงสร้าง
-          </p>
+          <figure>
+            <p>- โปรเจคสร้างเว็บไซต์เกี่ยวกับการแข่งขันฟุตบอล<br /></p>
+            <img src="webfootball.jpg" alt="webfootball" width="800" />
+            <figcaption>
+              โปรเจคที่ทำขึ้นเพื่อนำความรู้ในวิชา Relational Database System
+              มาพัฒนาเว็บไซต์ของตนเอง
+            </figcaption>
+          </figure>
         </article>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-      <nav>
-        <ul>
-          <li><a href="#home">หน้าแรก</a></li>
-          <li><a href="#about">เกี่ยวกับเรา</a></li>
-          <li><a href="#contact">ติดต่อ</a></li>
-        </ul>
-      </nav>
+      <section id="contact">
+        <article>
+          <h2>Contact</h2>
+          <p>
+            <a href="mailto:67160203@go.buu.ac.th">Email</a><br />
+            <a href="tel:+66863744818">0863744818</a>
+          </p>
+        </article>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <nav>
+          <ul>
+            <li><a href="#home">หน้าแรก</a></li>
+            <li><a href="#about">เกี่ยวกับเรา</a></li>
+            <li><a href="#port">ผลงาน</a></li>
+            <li><a href="#contact">ติดต่อ</a></li>
+          </ul>
+        </nav>
+      </section>
     </footer>
   </body>
 </html>
